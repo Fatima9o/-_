@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>الشنط</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+
+  <div class="logo">الشنط</div>
+
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+</div>
+
+<div class="description">
+  <p> تشكيلة مُميزة من شنط الأطفال بتصاميم جميلة وعملية </p>
+</div>
+
+<div id="sidebar" class="sidebar">
+  <a href="index.html">الصفحة الرئيسية</a>
+  <a href="clothes.html">ملابس الأطفال</a>
+  <a href="shoes.html">الأحذية</a>
+  <a href="accessories.html">الإكسسوارات</a>
+  <a href="bags.html">الشنط</a>
+</div>
+<div class="products">
+<div class="item">
+    <img src="images/bage 2.jpg">
+    <p>شنطة أنيقة للمناسبات</p>
+    <div class="price">30ريال</div>
+    <button class="cart">أضف للسلة 🛒</button>
+  </div>
+  <div class="item">
+    <img src="images/bage.jpg">
+    <p>شنطة أنيقة للمناسبات</p>
+    <div class="price">25 ريال</div>
+    <button class="cart">أضف للسلة 🛒</button>
+  </div>
+  <div class="item">
+    <img src="images/bage 3.jpg">
+    <p>شنطة ظهر بطابع ورود</p>
+    <div class="price">30ريال</div>
+    <button class="cart">أضف للسلة 🛒</button>
+  </div>
+ <div class="item">
+    <img src="images/bage 4.jpg">
+    <p>شنطة ظهر بطابع فراولة</p>
+    <div class="price">30ريال</div>
+    <button class="cart">أضف للسلة 🛒</button>
+  </div>
+<script>
+function toggleMenu() {
+  var menu = document.getElementById("sidebar");
+  if (menu.style.right === "0px") {
+    menu.style.right = "-250px";
+  } else {
+    menu.style.right = "0px";
+  }
+}
+</script>
+
+</body>
+</html>
